@@ -1,7 +1,8 @@
 body {
     margin: 0;
-    font-family: 'Crimson Text', Garamond, sans-serif;
-
+    font-family: Garamond, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 header {
@@ -9,6 +10,10 @@ header {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+h1, h2 {
+    font-family: 'Crimson Text', Garamond, sans-serif;
 }
 
 header h1 {
@@ -19,4 +24,43 @@ header img {
     border-radius: 170px;
     width: 300px;
     border: 10px solid black;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main img {
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 40px 0 10px;
+}
+
+a {
+    color:black
+}
+
+a:hover {
+    background-color: wheat;
+}
+
+footer {
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 50px;
+}
+
+footer p {
+    margin: 0;
+}
+
+p.caption {
+    color: #999999;
+    font-style: italic;
+    margin-top: 0;
 }
