@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: 'Crimson Text', Garamond, sans-serif;
+
+}
+
+header {
+    background-color: blanchedalmond;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+header h1 {
+    color: grey;
+}
+
+header img {
+    border-radius: 170px;
+    width: 300px;
+    border: 10px solid black;
+}
